@@ -19,7 +19,7 @@ init_once = False
 while camera.isOpened():
     ok, image=camera.read()
     if not ok:
-        print 'no image to read'
+        print('no image to read')
         break
 
     if not init_once:
